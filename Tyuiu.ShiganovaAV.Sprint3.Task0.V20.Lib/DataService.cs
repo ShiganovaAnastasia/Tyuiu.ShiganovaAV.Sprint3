@@ -7,8 +7,8 @@ namespace Tyuiu.ShiganovaAV.Sprint3.Task0.V20.Lib
         {
             double result = 1;
             for (int k = startValue; k <= stopValue; k++)
-                result *= Math.Cos(value) + Math.Pow(k / 8, 3);
-            return Math.Round(result);
+                result *= Math.Cos(value) + Math.Pow(k / 8.0, 3);
+            return Math.Round(result,3);
         }
     }
 }
